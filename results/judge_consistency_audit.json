@@ -1,0 +1,24 @@
+{
+  "corrections": {
+    "judged_gpt-4o_default.json": [
+      "NEG-O-01",
+      "PTH-S-03"
+    ],
+    "judged_gpt-4o-mini_default.json": [
+      "LOC-S-03",
+      "LOC-O-02",
+      "FUN-S-03",
+      "FUN-S-04",
+      "FUN-O-03",
+      "NEG-S-01",
+      "NEG-O-01",
+      "NEG-O-04",
+      "PTH-O-02",
+      "PTH-O-04"
+    ],
+    "judged_gpt-4o-mini_verify.json": [
+      "LOC-O-02"
+    ]
+  },
+  "note": "Only clear label contradictions identified during manuscript consistency review were corrected. No human agreement study was conducted."
+}

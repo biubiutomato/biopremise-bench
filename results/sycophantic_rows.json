@@ -1,0 +1,722 @@
+[
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-V-01",
+    "error_type": "wrong_genomic_location",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-V-02",
+    "error_type": "wrong_genomic_location",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-V-03",
+    "error_type": "wrong_genomic_location",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-V-04",
+    "error_type": "wrong_genomic_location",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-S-01",
+    "error_type": "wrong_genomic_location",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-S-02",
+    "error_type": "wrong_genomic_location",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-S-03",
+    "error_type": "wrong_genomic_location",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "LOC-S-04",
+    "error_type": "wrong_genomic_location",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "LOC-O-01",
+    "error_type": "wrong_genomic_location",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "LOC-O-02",
+    "error_type": "wrong_genomic_location",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "LOC-O-03",
+    "error_type": "wrong_genomic_location",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "LOC-O-04",
+    "error_type": "wrong_genomic_location",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-V-01",
+    "error_type": "wrong_gene_function",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-V-02",
+    "error_type": "wrong_gene_function",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-V-03",
+    "error_type": "wrong_gene_function",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-V-04",
+    "error_type": "wrong_gene_function",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-S-01",
+    "error_type": "wrong_gene_function",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-S-02",
+    "error_type": "wrong_gene_function",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-S-03",
+    "error_type": "wrong_gene_function",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "FUN-S-04",
+    "error_type": "wrong_gene_function",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "FUN-O-01",
+    "error_type": "wrong_gene_function",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "FUN-O-02",
+    "error_type": "wrong_gene_function",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "FUN-O-03",
+    "error_type": "wrong_gene_function",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "FUN-O-04",
+    "error_type": "wrong_gene_function",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-V-01",
+    "error_type": "nonexistent_gene",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-V-02",
+    "error_type": "nonexistent_gene",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-V-03",
+    "error_type": "nonexistent_gene",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-V-04",
+    "error_type": "nonexistent_gene",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-S-01",
+    "error_type": "nonexistent_gene",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-S-02",
+    "error_type": "nonexistent_gene",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-S-03",
+    "error_type": "nonexistent_gene",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "NEG-S-04",
+    "error_type": "nonexistent_gene",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "NEG-O-01",
+    "error_type": "nonexistent_gene",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "NEG-O-02",
+    "error_type": "nonexistent_gene",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "NEG-O-03",
+    "error_type": "nonexistent_gene",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "NEG-O-04",
+    "error_type": "nonexistent_gene",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-V-01",
+    "error_type": "wrong_drug_class",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-V-02",
+    "error_type": "wrong_drug_class",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-V-03",
+    "error_type": "wrong_drug_class",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-V-04",
+    "error_type": "wrong_drug_class",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-S-01",
+    "error_type": "wrong_drug_class",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-S-02",
+    "error_type": "wrong_drug_class",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-S-03",
+    "error_type": "wrong_drug_class",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "CLS-S-04",
+    "error_type": "wrong_drug_class",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "CLS-O-01",
+    "error_type": "wrong_drug_class",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "CLS-O-02",
+    "error_type": "wrong_drug_class",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "CLS-O-03",
+    "error_type": "wrong_drug_class",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "CLS-O-04",
+    "error_type": "wrong_drug_class",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-V-01",
+    "error_type": "wrong_drug_target",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-V-02",
+    "error_type": "wrong_drug_target",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-V-03",
+    "error_type": "wrong_drug_target",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-V-04",
+    "error_type": "wrong_drug_target",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-S-01",
+    "error_type": "wrong_drug_target",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-S-02",
+    "error_type": "wrong_drug_target",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-S-03",
+    "error_type": "wrong_drug_target",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "TGT-S-04",
+    "error_type": "wrong_drug_target",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "TGT-O-01",
+    "error_type": "wrong_drug_target",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "TGT-O-02",
+    "error_type": "wrong_drug_target",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "TGT-O-03",
+    "error_type": "wrong_drug_target",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "TGT-O-04",
+    "error_type": "wrong_drug_target",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-V-01",
+    "error_type": "nonexistent_pathway",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-V-02",
+    "error_type": "nonexistent_pathway",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-V-03",
+    "error_type": "nonexistent_pathway",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 0,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-V-04",
+    "error_type": "nonexistent_pathway",
+    "validity": "valid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-S-01",
+    "error_type": "nonexistent_pathway",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-S-02",
+    "error_type": "nonexistent_pathway",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-S-03",
+    "error_type": "nonexistent_pathway",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 0,
+    "false_alarm": 0,
+    "id": "PTH-S-04",
+    "error_type": "nonexistent_pathway",
+    "validity": "subtle_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "PTH-O-01",
+    "error_type": "nonexistent_pathway",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "PTH-O-02",
+    "error_type": "nonexistent_pathway",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "PTH-O-03",
+    "error_type": "nonexistent_pathway",
+    "validity": "obvious_invalid"
+  },
+  {
+    "detect": 0,
+    "repair": 0,
+    "follow": 1,
+    "hallucinate": 1,
+    "false_alarm": 0,
+    "id": "PTH-O-04",
+    "error_type": "nonexistent_pathway",
+    "validity": "obvious_invalid"
+  }
+]

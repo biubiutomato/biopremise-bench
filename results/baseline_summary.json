@@ -1,0 +1,130 @@
+{
+  "dataset": {
+    "n": 72,
+    "by_validity": {
+      "valid": 24,
+      "subtle_invalid": 24,
+      "obvious_invalid": 24
+    },
+    "by_type": {
+      "wrong_genomic_location": 12,
+      "wrong_gene_function": 12,
+      "nonexistent_gene": 12,
+      "wrong_drug_class": 12,
+      "wrong_drug_target": 12,
+      "nonexistent_pathway": 12
+    },
+    "cross": {
+      "wrong_genomic_location|valid": 4,
+      "wrong_genomic_location|subtle_invalid": 4,
+      "wrong_genomic_location|obvious_invalid": 4,
+      "wrong_gene_function|valid": 4,
+      "wrong_gene_function|subtle_invalid": 4,
+      "wrong_gene_function|obvious_invalid": 4,
+      "nonexistent_gene|valid": 4,
+      "nonexistent_gene|subtle_invalid": 4,
+      "nonexistent_gene|obvious_invalid": 4,
+      "wrong_drug_class|valid": 4,
+      "wrong_drug_class|subtle_invalid": 4,
+      "wrong_drug_class|obvious_invalid": 4,
+      "wrong_drug_target|valid": 4,
+      "wrong_drug_target|subtle_invalid": 4,
+      "wrong_drug_target|obvious_invalid": 4,
+      "nonexistent_pathway|valid": 4,
+      "nonexistent_pathway|subtle_invalid": 4,
+      "nonexistent_pathway|obvious_invalid": 4
+    }
+  },
+  "baselines": {
+    "sycophantic": {
+      "policy": "sycophantic",
+      "n_invalid": 48,
+      "n_valid": 24,
+      "PDR": 0.0,
+      "PRR": 0.0,
+      "FPCR": 1.0,
+      "DHR": 0.5,
+      "false_alarm_rate": 0.0,
+      "PDR_subtle": 0.0,
+      "PDR_obvious": 0.0,
+      "FPCR_subtle": 1.0,
+      "FPCR_obvious": 1.0,
+      "PDR_by_type": {
+        "wrong_genomic_location": 0.0,
+        "wrong_gene_function": 0.0,
+        "nonexistent_gene": 0.0,
+        "wrong_drug_class": 0.0,
+        "wrong_drug_target": 0.0,
+        "nonexistent_pathway": 0.0
+      },
+      "FPCR_by_type": {
+        "wrong_genomic_location": 1.0,
+        "wrong_gene_function": 1.0,
+        "nonexistent_gene": 1.0,
+        "wrong_drug_class": 1.0,
+        "wrong_drug_target": 1.0,
+        "nonexistent_pathway": 1.0
+      }
+    },
+    "surface_cue": {
+      "policy": "surface_cue",
+      "n_invalid": 48,
+      "n_valid": 24,
+      "PDR": 0.5,
+      "PRR": 0.0,
+      "FPCR": 0.5,
+      "DHR": 0.0,
+      "false_alarm_rate": 0.0,
+      "PDR_subtle": 0.0,
+      "PDR_obvious": 1.0,
+      "FPCR_subtle": 1.0,
+      "FPCR_obvious": 0.0,
+      "PDR_by_type": {
+        "wrong_genomic_location": 0.5,
+        "wrong_gene_function": 0.5,
+        "nonexistent_gene": 0.5,
+        "wrong_drug_class": 0.5,
+        "wrong_drug_target": 0.5,
+        "nonexistent_pathway": 0.5
+      },
+      "FPCR_by_type": {
+        "wrong_genomic_location": 0.5,
+        "wrong_gene_function": 0.5,
+        "nonexistent_gene": 0.5,
+        "wrong_drug_class": 0.5,
+        "wrong_drug_target": 0.5,
+        "nonexistent_pathway": 0.5
+      }
+    },
+    "knowledge_oracle": {
+      "policy": "knowledge_oracle",
+      "n_invalid": 48,
+      "n_valid": 24,
+      "PDR": 1.0,
+      "PRR": 1.0,
+      "FPCR": 0.0,
+      "DHR": 0.0,
+      "false_alarm_rate": 0.0,
+      "PDR_subtle": 1.0,
+      "PDR_obvious": 1.0,
+      "FPCR_subtle": 0.0,
+      "FPCR_obvious": 0.0,
+      "PDR_by_type": {
+        "wrong_genomic_location": 1.0,
+        "wrong_gene_function": 1.0,
+        "nonexistent_gene": 1.0,
+        "wrong_drug_class": 1.0,
+        "wrong_drug_target": 1.0,
+        "nonexistent_pathway": 1.0
+      },
+      "FPCR_by_type": {
+        "wrong_genomic_location": 0.0,
+        "wrong_gene_function": 0.0,
+        "nonexistent_gene": 0.0,
+        "wrong_drug_class": 0.0,
+        "wrong_drug_target": 0.0,
+        "nonexistent_pathway": 0.0
+      }
+    }
+  }
+}
